@@ -384,13 +384,6 @@ html, body {
   font-weight: 600;
 }
 
-.header__slider {
-}
-
-
-
-
-
 .main {
   min-height: 100%;
   flex: 1 1 auto;
@@ -510,7 +503,6 @@ html, body {
 }
 
 .navigation__list-item {
-  
   border-radius: 70px;
   transition: background-color 0.3s ease;
 }
