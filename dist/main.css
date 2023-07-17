@@ -275,7 +275,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(68px);
+  transform: translateX(30px);
 }
 
 .header__content-inner {
