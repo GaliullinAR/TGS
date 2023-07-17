@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(87ca550c455e71127ce2.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(c6776e8228bee1ff1106.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(bd8f66c37701f36cc43f.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(93b8fac456d54c025376.ttf);
+  font-weight: 500;
+}
 *,
 *::before,
 *::after {
@@ -132,15 +155,15 @@ html, body {
 }
 
 .header__location::before {
-  background-image: url(../images/svg/location.svg);
+  background-image: url(ea65a487b90f40253b16.svg);
 }
 
 .header__mail::before {
-  background-image: url(../images/svg/mail.svg);
+  background-image: url(8305e6e80ddf2c1f84d3.svg);
 }
 
 .header__call::before {
-  background-image: url(../images/svg/phone.svg);
+  background-image: url(f4cbc663aa6cdce07539.svg);
 }
 
 .btn {
@@ -331,15 +354,15 @@ html, body {
 }
 
 .money::before {
-  background-image: url(../images/svg/money.svg);
+  background-image: url(cedb46454d300c070d72.svg);
 }
 
 .tablet::before {
-  background-image: url(../images/svg/tablet.svg);
+  background-image: url(94153f58438a39767f16.svg);
 }
 
 .calendary::before {
-  background-image: url(../images/svg/calendar.svg);
+  background-image: url(2ffdbb8dffa108a48b5d.svg);
 }
 
 .content-order__btn {
@@ -383,7 +406,7 @@ html, body {
   left: 0;
   height: 24px;
   width: 24px;
-  background-image: url(../images/svg/gift.svg);
+  background-image: url(1f6a749896fd02f7f12a.svg);
   background-size: 24px;
   background-repeat: no-repeat;
   background-position: center;
@@ -599,3 +622,316 @@ html, body {
   width: 100%;
   height: 100%;
 }
+@media (max-width: 1460px) {
+  .header__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1240px) {
+  .burger {
+    display: block;
+  }
+  .header__menu {
+    display: none;
+  }
+  .burger__content {
+    display: block;
+  }
+}
+
+@media (max-width: 1170px) {
+  .header__content-inner {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .header__content .container {
+    width: 100%;
+  }
+
+  .header__content {
+    padding: 40px 0 0;
+    transform: translateX(0);
+  }
+
+  .header__content-box {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .header__slider {
+    margin: 0 auto;
+  }
+
+  .work {
+    padding: 90px 0 70px;
+  }
+
+  .work__list-item {
+    margin: 0 auto 30px;
+  }
+
+  .instruments__title {
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+
+  .instruments__navigation {
+    justify-content: center;
+  }
+
+  .navigation__list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation__list-item {
+    width: 100%;
+  }
+
+  .presentation__header {
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+
+
+}
+
+@media (max-width: 965px) {
+  .work__inner {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__slider {
+    max-width: 100%;
+  }
+
+  .slider__item-img {
+    width: 100%;
+  }
+
+  .slider__item-img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .work__content {
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .our__work {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .work__list-item {
+    max-width: 100%;
+  }
+
+  .navigation__list {
+    width: 100%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 964px) {
+  .logo__text {
+    display: none;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .header__content-description {
+    font-size: 14px;
+  }
+
+  .header__content-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .header__content-item {
+    margin-bottom: 20px;
+  }
+
+  .header__content-order {
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .header__content-order button {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .work__title {
+    font-size: 1.5em;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .work__content-description {
+    font-size: 1em;
+  }
+
+  .link {
+    width: 100%;
+  }
+
+  .instruments {
+    padding-bottom: 20px;
+  }
+
+  .instruments__title {
+    font-size: 1.5em;
+    line-height: 20px;
+  }
+
+  .navigation__list-item {
+    transition: none;
+  }
+
+  .presentation__title {
+    font-size: 1.5em;
+    line-height: 20px;
+  }
+
+  .presentation__text {
+    font-size: 1em;
+  }
+}
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
