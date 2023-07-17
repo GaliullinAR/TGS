@@ -10,7 +10,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[contenthash].bundle.js",
+    filename: "bundle.js",
   },
   module: {
     rules: [
@@ -41,7 +41,7 @@ module.exports = {
       filename: "index.html",
     }),
     new MiniCssExtractPlugin({
-      filename: "[contenthash].[name].css",
+      filename: "[name].css",
       chunkFilename: "[id].css",
     }),
     new CleanWebpackPlugin(),
